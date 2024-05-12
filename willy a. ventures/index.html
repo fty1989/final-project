@@ -1,0 +1,206 @@
+<!--create a simple Portfolio website using VSCode showing your name and some things about you (e.g. a resume or an introduction). Submit the Html and CSS files to Google Classroom.
+You can recycle the website code from today’s lesson
+Add HTML unordered/ordered lists, add CSS text-align and CSS borders -->
+
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content=" Gifty Anecham" />
+    <meta name="description"content="The page contain all that you need to known about Willy A. Ventures" />
+    <title>Willy A. Ventures</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+ 
+  <body>
+
+    <header>
+      <div class="navigation">
+        <a href="#products&services">Products</a>
+        <a href="#contact">Contact</a>
+        <a href="#About us">About us</a>
+       
+      </div>
+      <h1>Willy A. Ventures</h1>
+    </header>
+    
+
+    <hr />
+    <nav>
+      <ol>
+        <li>
+          <a href="#About us"> About Us</a>
+        </li>
+        <li><a href="#History"> History</a></li>
+        <li><a href="#products&services"> Products & Services</a></li>
+      </ol>
+    </nav>
+
+    <hr />
+
+    <p>About Us</p>
+
+    <sub>
+      <hr />
+
+      <section id="About us">
+        <p>Mission</p>
+        <p>
+          To provide Unique goods and services at afforable prices <br />
+          for the people of Navrongo and its surrounding towns
+        </p>
+
+        <p>Vision</p>
+        <p>
+          To contribute sustainably to the unemployment deficit in the Sub
+          Region <br />
+          by providing both direct and indirect employment opportunities to the
+          youth
+          <br />
+          of Navrongo, its surrounded communities and the Upper East Region at
+          larged. <br />To also contribute to infranstructure development in the
+          sub region
+        </p>
+      </section>
+
+      <hr />
+    </sub>
+
+    <p>History</p>
+    <hr />
+
+    <section id="History">
+      <p>
+        Willy A. Ventures was established in the year 2011 at Navrongo in the
+        <abbr title="Upper East Region">UER</abbr> by Mr. Wilfred Anecham
+      </p>
+      <p>
+        He started with the production of sacket mineral water with the brand
+        name
+        <br />
+        Unique Natural Mineral Water. And had a total number of 5 employees.
+        <br />
+        Today, Unique has become a family name for the products and services
+        Willy A. Ventures provide <br />Which includes:
+      </p>
+      <ul>
+        <li>Unique Hostel</li>
+        <li>Unique Rental Services</li>
+        <li>Unique Constructions & building materials</li>
+        <li>Unique Fish Production</li>
+      </ul>
+
+      <p>
+        Today, Willy A. Ventures has over 30 employees and one branch in the
+        Ashanti Region (Kwamo)
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="products&services">
+      <h2>Unique mineral water</h2>
+
+      <img class="hero" src="unique.PNG" alt="unique" width="500" />
+
+      <p>
+        Unique Natural Mineral Water is produce in a clean and hygienic
+        environment <br />
+        and satisfied by <abbr title="Food and Drug Administration">FDA</abbr>.
+        It one of the best mineral water in Upper East Region. <br />
+        Unique mineral water has two branches. <br />
+        The
+        <a href="https://maps.app.goo.gl/jw7yTLctzVE4RDgz9" target="_blank">Navrongo Branch</a>
+        which is the headquater and the
+        <a href="https://maps.app.goo.gl/NRxX5y76HgNCyCn26" target="_blank">Kumasi Branch</a> .
+      </p>
+
+      <h4>Unique Hostel</h4>
+      <p>
+        It was building to provide afforable accommodation for the students of
+        <a href="https://cktutas.edu.gh/" target="_blank"> CKT-UTAS</a> <br />
+        and
+        <abbr title="National Service Scheme">
+          <a href="https://www.nss.gov.gh/" target="_blank">NSS</a></abbr
+        >
+        personnels, who wishes do do there national service in Navrongo <br />
+        It offers 24 hours water supply and
+        <a href="https://maps.app.goo.gl/RZKcBqLkzEKWj7oQA" target="_blank">located</a>
+        in a quite community near the University.
+      </p>
+
+      <h5>Unique Rental Services</h5>
+      <img src="image.png" alt="Rentals" />
+      <p>
+        Unique Rentals Services provides you with different types of canopies
+        and <br />
+        chairs for your weddings, naming ceremonies and funerals at afforable
+        prices <br />
+        It is located at the premises of
+        <strong>Unique Natural Mineral Water</strong> .
+      </p>
+
+      <h6>Unique Constructions & building materials</h6>
+      <img src="construction.PNG" alt="Unique construction" width="500" />
+    </section>
+
+    <footer class="footer" id="footer">
+
+    <address class="address">
+      <h1>Contact me</h1>
+      <form action="" method="get">
+        <label for="firstName">First name:</label><br />
+        <input
+          type="text"
+          name="firstName"
+          id="FirstName"
+          placeholder="Lizzie"
+          autocomplete="on"
+          required
+        /><br />
+        <label for="LastName">LastName:</label> <br />
+        <input
+          type="LastName"
+          name="LastName"
+          id="LastName"
+          placeholder=" Macus"
+          autocomplete="on"
+          required
+        />
+        <br />
+
+        <label for="email">Your email:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@mail.com"
+          autocomplete="on"
+          required
+        /><br />
+        <input
+          type="submit"
+          onclick="alert('Message sent')"
+          class="submit"
+          value="Submit" /> 
+
+    
+          <h6>Contact</h6>
+    
+      
+      <p>Willy A. Ventures.</p>
+      <p>P. O Box 154</p>
+      <p>Navrongo - U/E/R</p>
+      <p>Tel: 0267949370/0247265231</p>
+      <br />
+      <p>Kumasi Branch</p>
+      <p>Unique Drinking Water</p>
+      <p>P. O. Box 11385</p>
+      <p>Adum - Kumasi</p>
+    </address>
+  </footer>
+    
+      
+  </body>
+</html>

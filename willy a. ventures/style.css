@@ -1,0 +1,64 @@
+header {
+  background-color: rgb(54, 144, 156);
+  font-style: italic;
+  margin: 5px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+.navigation a {
+    text-align: left;
+    margin: 20px;
+    
+}
+
+
+body {
+  font-size: 22px;
+  background-color: wheat;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 20px;
+  
+  
+}
+
+p {
+  color: blue;
+}
+
+
+
+
+section img {
+  width: 400px;
+  border-radius: 30px;
+}
+/*-------------------------------------------------------
+Footer
+-------------------------------------------------------*/
+.footer contact {
+  height: 100px;
+  text-align: left;
+  background-color:grey;
+  font-style: italic;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+.address p {
+    color: black;
+    margin: 5px;
+  }
+  
+  .address {
+      background-color:grey;
+    padding: 5px;
+  }
+
+
+.dark {
+  background-color: lightgrey;
+}
